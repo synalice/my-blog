@@ -6,22 +6,23 @@ enableInlineShortcodes = true
 [params]
   description = "Блог Каснова Никиты"
   copyright = "© 2020 Краснов Никита"
+  mainSections = ["posts"]
 
 [menu]
   [[menu.main]]
-    name = "posts"
-    title = "posts"
-    url = "/"
+    name = "записи"
+    title = "записи"
+    url = "/posts/"
     weight = 10
 
   [[menu.main]]
-    name = "about"
-    title = "about"
+    name = "про меня"
+    title = "про меня"
     url = "/about/"
     weight = 20
 
 [permalinks]
-  posts = "/:title/"
+  posts = "/:section/:filename/"
 
 # Read more about [markup.goldmark.renderer]
 # https://github.com/yuin/goldmark/#html-renderer-options
