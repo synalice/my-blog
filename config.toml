@@ -2,8 +2,6 @@ baseURL = "https://syn-server.ru"
 defaultContentLanguage = "ru"
 title = "Syn's Blog"
 enableInlineShortcodes = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 
 [params]
   description = "Блог Каснова Никиты"
