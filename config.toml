@@ -1,7 +1,6 @@
 baseURL = "https://syn-server.ru"
 defaultContentLanguage = "ru"
 title = "Syn's Blog"
-theme = "etch_simplified"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true

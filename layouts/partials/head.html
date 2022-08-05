@@ -10,7 +10,7 @@
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="icon" type="image/svg" href="/img/favicon.svg">
 
     <title>{{ .Title }}</title>
 </head>
