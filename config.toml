@@ -1,5 +1,5 @@
 baseURL = "https://syn-server.ru"
-languageCode = "en-US"
+defaultContentLanguage = "ru"
 title = "Syn's Blog"
 theme = "etch_simplified"
 enableInlineShortcodes = true

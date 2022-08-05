@@ -5,9 +5,9 @@
         <div>
         {{- if isset .Params "date" -}}
             {{ if eq .Lastmod .Date }}
-                <time>{{ .Date | time.Format (i18n "post.created") }}</time>
+                <time>{{ .Date | time.Format ":date_long" }}</time>
             {{ else }}
-                <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
+                <time>Обновлено {{ .Lastmod | time.Format ":date_long" }}</time>
             {{ end }}
         {{- end -}}
         </div>
