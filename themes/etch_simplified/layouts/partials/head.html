@@ -1,25 +1,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{- .Site.Params.description -}}">
     
-    {{ with .Site.Params.description -}}
-    <meta name="description" content="{{ . }}">
-    {{ end }}
-    
-    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
-
     {{ $resources := slice -}}
-
     {{ $resources = $resources | append (resources.Get "css/main.css") -}}
-
     {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
-
-    {{ if .Site.Params.highlight -}}
-        {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
-    {{ end -}}
-
+    {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
 
     <title>{{ .Title }}</title>
 </head>

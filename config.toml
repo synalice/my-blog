@@ -10,7 +10,6 @@ pygmentsUseClasses = true
   description = "Блог Каснова Никиты"
   copyright = "© 2020 Краснов Никита"
   dark = "auto"
-  highlight = true
 
 [menu]
   [[menu.main]]
