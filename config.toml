@@ -24,10 +24,16 @@ title = "Syn's Blog"
     weight = 10
 
   [[menu.main]]
+    name = "тэги"
+    title = "тэги"
+    url = "/tags/"
+    weight = 20
+    
+  [[menu.main]]
     name = "про меня"
     title = "про меня"
     url = "/about/"
-    weight = 20
+    weight = 30
 
 [permalinks]
   posts = "/:section/:filename/"
