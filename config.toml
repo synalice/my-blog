@@ -1,7 +1,6 @@
 baseURL = "https://syn-server.ru"
 defaultContentLanguage = "ru"
 title = "Syn's Blog"
-enableInlineShortcodes = true
 
 [params]
   description = "Блог Каснова Никиты"
@@ -23,9 +22,3 @@ enableInlineShortcodes = true
 
 [permalinks]
   posts = "/:section/:filename/"
-
-# Read more about [markup.goldmark.renderer]
-# https://github.com/yuin/goldmark/#html-renderer-options
-# https://gohugo.io/getting-started/configuration-markup/#goldmark
-[markup.goldmark.renderer]
-  unsafe = true
