@@ -5,6 +5,15 @@ title = "Syn's Blog"
 [params]
   description = "Блог Каснова Никиты"
   copyright = "© 2020 Краснов Никита"
+
+  # Only posts from "/content/posts/" directory will be present on the main page.
+  # You can add other folders or remove this setting entirely. Removing it will
+  # cause this theme to render only the folder with the most files in it.
+  # 
+  # It's recomended to leave this setting as is and only create new posts in
+  # "/content/posts/" directory.
+  # 
+  # See "/layout/_default/list.html" file for more.
   mainSections = ["posts"]
 
 [menu]
