@@ -10,6 +10,14 @@
                 <time>Обновлено {{ .Lastmod | time.Format ":date_long" }}</time>
             {{ end }}
         {{- end -}}
+        
+        {{- if isset .Params "tags" -}}
+            <div>
+            {{ range .Params.tags }}
+                <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
+            {{ end }}
+            </div>
+        {{ end }}
         </div>
     </header>
     {{- .Content -}}
