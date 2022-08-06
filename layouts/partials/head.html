@@ -3,12 +3,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{- .Site.Params.description -}}">
     
+    <!-- Array to hold all css files -->
     {{ $resources := slice -}}
+
+    <!-- We `Get` all css files and store them inside the $resources array -->
     {{ $resources = $resources | append (resources.Get "css/main.css") -}}
     {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
     {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
+
+    <!-- We concatenate all css into one file and minify it -->
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
-    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+
+    <!-- We link the resulting single minified file. The result is that in the
+        end user fetches only one minified css file instead of downloading
+        multiple files -->
+    <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}">
 
     <link rel="icon" type="image/svg" href="/img/favicon.svg">
 
