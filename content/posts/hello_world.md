@@ -1,10 +1,10 @@
 ---
 title: "hello_world"
 date: 2022-08-05T21:40:00+03:00
+lastmod: 2022-08-09T20:08:00+03:00
+tags: ["сайт", "технологии"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Наконец-то я настроил всё, что хотел. Позже, если дойдут руки, я или выложу отдельный пост, рассказывающий про устройство этого блога с технической стороны (ссылка будет где-то здесь), или буду планомерно обновлять эту запись, дополняя её новостями о том, как этот блог устроен и на чём работает.
 
 {{< figure src="/img/full_pfp.jpeg" title="Красивая картинка" alt="Красивая картинка">}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
