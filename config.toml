@@ -1,4 +1,4 @@
-baseURL = "https://syn-server.ru"
+baseURL = "https://syn-server.ru/"
 defaultContentLanguage = "ru"
 title = "Syn's Blog"
 
