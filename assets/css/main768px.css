@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  body {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  header#banner h2 {
+    margin-right: 20px;
+  }
+}
