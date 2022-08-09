@@ -33,9 +33,9 @@ header#banner a:hover {
 
 header#banner h2 {
     display: flex;
-    font-size: 2.1rem;
+    font-size: 1.6em;
     margin: 0px;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 header#banner nav {
@@ -48,8 +48,6 @@ header#banner nav ul {
     text-transform: lowercase;
     margin: 0;
     padding: 0;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 header#banner nav ul li {
@@ -77,8 +75,7 @@ main#content h6 {
 }
 
 main#content h3 {
-    font-size: 19px;
-    font-size: 1.9rem;
+    font-size: 1.3em;
 }
 
 main#content h1 + p,
@@ -108,8 +105,7 @@ main#content abbr {
 /* index.html styles */
 main#content ul#posts {
     list-style-type: none;
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 1.2em;
     margin-top: 0;
     padding: 0;
 }
@@ -142,8 +138,7 @@ main#content ul#posts li a:hover small {
 /* single.html styles */
 main#content header#post-header h1 {
     display: block;
-    font-size: 23px;
-    font-size: 2.3rem;
+    font-size: 1.5em;
     font-weight: 600;
     line-height: 1.15;
 }
@@ -261,7 +256,6 @@ main#content code {
 main#content pre {
     display: block;
     overflow-x: auto;
-    font-size: 14px;
     font-size: 1.4rem;
     white-space: pre;
     margin: 20px 0;
@@ -278,7 +272,6 @@ main#content section.footnotes {
 }
 
 footer#footer {
-    font-size: 14px;
     font-size: 1.4rem;
     font-weight: 400;
     color: #b3b3b3;

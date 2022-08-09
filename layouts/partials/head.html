@@ -8,7 +8,8 @@
 
     <!-- We `Get` all css files and store them inside the $resources array -->
     {{ $resources = $resources | append (resources.Get "css/main.css") -}}
-    {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
+    {{ $resources = $resources | append (resources.Get "css/main768px.css") -}}
+    {{ $resources = $resources | append (resources.Get "css/main1024px.css") -}}
     {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
 
     <!-- We concatenate all css into one file and minify it -->
