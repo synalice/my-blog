@@ -2,9 +2,5 @@
     <a href="{{ .Permalink }}">
         {{ .Title }}
         <small><time>{{ .Date | time.Format ":date_medium" }}</time></small>
-        <br>
-        {{ with .Params.tags }}
-            <small style="margin-left: 0">{{ delimit . ", " }}</small>
-        {{ end }}
     </a>
 </li>
