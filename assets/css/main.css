@@ -153,6 +153,10 @@ main#content header#post-header > div a {
     color: #767676;
 }
 
+main#content header#post-header > div a:hover {
+    text-decoration: underline;
+}
+
 main#content #toc {
     border: 1px solid #b1b1b1;
     border-radius: 1px;
